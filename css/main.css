@@ -1,16 +1,130 @@
 @charset "UTF-8";
 
+div,p,body,header,footer,section,article,nav
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: none; /*Remove border if image is a link*/
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+  background-color: #ffe53d;
+  background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+}
+
+.hidden
+{
+	display: none;
+}
 
 #container
 {
-  width: 1000px;
-  margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-#mainCon
+#mainHeader
 {
-  background-color: #FFF1B2;
+  margin-top: 20px;
+	margin-bottom: 20px;
+  padding-bottom: 20px;
+	width: 360px;
+	height: 20px;
+  position: relative;
+	background-color: #ff9966;
   color: #000;
-  font-size: 14px;
+}
+
+#mainHeader h1
+{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 32px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+#mainCon img
+{
+  margin: 0 auto;
+  float: left;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+#mainCon img p
+{
+  text-align: left;
+  float: right;
+}
+
+#mainCon p
+{
+  text-indent: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+#secondHeader
+{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  width: 360px;
+  height: 20px;
+  position: relative;
+  background-color: #ff9966;
+  color: #000;
+}
+
+#secondHeader h2
+{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 32px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+#foodImages img
+{
+  position: absolute;
+  margin-bottom: 10px;
+}
+
+#thirdHeader
+{
+  margin-top: 500px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  width: 455px;
+  height: 20px;
+  position: relative;
+  background-color: #ff9966;
+  color: #000;
+}
+
+#thirdHeader h2
+{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 32px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+#skyImages img
+{
+  position: absolute;
+  margin-bottom: 20px;
 }
